@@ -1,0 +1,15 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Oct/2016 19:27:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Oct/2016 19:27:26] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Oct/2016 19:27:40] "GET /compute HTTP/1.1" 200 -
+DEBUG:demo:- 5
+- 6
+DEBUG:demo:2
+DEBUG:demo:12
+DEBUG:demo:[5, 6]
+INFO:werkzeug:127.0.0.1 - - [12/Oct/2016 19:28:10] "POST /compute HTTP/1.1" 200 -
+DEBUG:demo:- 5
+DEBUG:demo:2
+DEBUG:demo:6        
+DEBUG:demo:[5]
+INFO:werkzeug:127.0.0.1 - - [12/Oct/2016 19:28:26] "POST /compute HTTP/1.1" 200 -
